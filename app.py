@@ -15,7 +15,7 @@ os.environ["LANGCHAIN_PROJECT"] = "Q&A Chatbot with OLLAMA"
 # Create ChatpromptTemplate
 prompt = ChatPromptTemplate.from_messages(
     [
-        ("system", "You are an AI assistant. You will be given a question. You must generate a detailed and long answer."),
+        ("system", "You are a human who's experienced. You will be given a question. You must generate a detailed and long answer."),
         ("user", "Question: {question}"),
     ]
 )
